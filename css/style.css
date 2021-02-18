@@ -1,0 +1,44 @@
+.header {
+  color: #020202;
+  background-color: #ffb9b9;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+}
+ul.navbar {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  background-color: #ffb9b9;
+  position: fixed;
+  top: 6em;
+  left: 1em;
+  width: 10em;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+  line-height: 2;
+}
+ul.navbar a {
+  text-decoration: none;
+}
+a:link {
+  color: #0a0a0a;
+}
+a:visited {
+  color: #800000;
+}
+
+.main {
+  margin: auto;
+  position: relative;
+  border: solid;
+  border-color: #070707;
+  margin-right: 11em;
+  margin-left: 11em;
+  padding: 2em;
+  background-color: #ffb9b9;
+}
+.footer {
+  background-color: #ffb9b9;
+  text-align: center;
+}
